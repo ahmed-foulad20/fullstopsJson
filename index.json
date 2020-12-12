@@ -1,0 +1,260 @@
+{
+  "HorizonLayout":[
+    {
+      "showMenu":true,
+      "showSearch":false,
+      "hideLogo":true,
+      "isSafeArea":true
+    },
+   {
+      "layout":"header_text",
+      "fontSize":23.0,
+      "height":0.11,
+      "padding":30.0,
+      "rotate":["",
+        "",
+        ""],
+      "type":"fade"
+    },
+    {
+      "layout":"header_search",
+      "text":"Search for a product"
+    },
+    
+    {
+      "layout":"bannerImage",
+      "isSlider":true,
+      "autoPlay":false,
+      "showNumber":false,
+      "design":"default",
+      "showBackGround":true,
+      "radius":2.0,
+      "height":0.15,
+      "items":[
+        {
+          "category":313,
+          "image":"https://iili.io/FKBel2.jpg",
+          "padding":15.0
+        },
+        {
+          "category":313,
+          "image":"https://trello-attachments.s3.amazonaws.com/5dc3cfb1d013e9228256a65f/1200x800/48633db8dd93f7e44f397119a24428e9/background6.jpg",
+          "padding":15.0
+        },
+        {
+          "category":313,
+          "image":"https://trello-attachments.s3.amazonaws.com/5dc3cfb1d013e9228256a65f/1200x800/8c242df41a73e0d73a97ac2c99b2339b/background5.jpg",
+          "padding":15.0
+        }
+      ]
+    },
+
+     {
+      "layout":"category",
+      "type":"icon",
+      "wrap":true,
+      "size":1.2,
+      "radius":50.0,
+      "noBackground":true,
+      "columns":4,
+      "padding":10.0,
+      "items":[
+        {
+          "category":50,
+          "name_ar":"البشرة",
+          "image":"https://iili.io/FKy83g.png",
+          "colors":["#3CC2BF",
+            "#3CC2BF"],
+          "originalColor":true
+        },
+        {
+          "category":29,
+          "name_ar":"تجميل",
+          "image":"https://iili.io/FKySaa.png",
+          "colors":["#3E6AB5",
+            "#3E6AB5"],
+          "originalColor":true
+        },
+        {
+          "category":51,
+          "name_ar":"شعر",
+          "image":"https://iili.io/FKyU8J.png",
+          "colors":["#53A2CC",
+            "#53A2CC"],
+          "originalColor":true
+        },
+        {
+          "category":52,
+          "name_ar":"عطور",
+          "image":"https://iili.io/FKygyv.png",
+          "colors":["#53688A",
+            "#53688A"],
+          "originalColor":true
+        },
+        {
+          "category":53,
+          "name_ar":"لانجري",
+          "image":"https://iili.io/FKy4uR.png",
+          "colors":["#43506A",
+            "#43506A"],
+          "originalColor":true
+        },
+        {
+          "category":54,
+          "name_ar":"اكسسوارات",
+          "image":"https://iili.io/FKy6jp.png",
+          "colors":["#12B58C",
+            "#12B58C"],
+          "originalColor":true
+        },
+        {
+          "category":55,
+          "name_ar":"اليكترونيات",
+          "image":"https://iili.io/FKysnI.png",
+          "colors":["#3CC2BF",
+            "#3CC2BF"],
+          "originalColor":true
+        },
+        {
+          "category":56,
+          "name_ar":"عروض",
+          "image":"https://iili.io/FKyLGt.png",
+          "colors":["#3E6AB5",
+            "#3E6AB5"],
+          "originalColor":true
+        }
+      ]
+    },
+    {
+      "name":"Latest Products",
+      "name_ar":"احدث المنتجات",
+      "image":"",
+      "layout":"threeColumn",
+      "isSnapping":true
+      
+    },
+    {
+      "layout":"bannerImage",
+      "items":[
+        {
+          "category":50,
+          "image":"https://iili.io/FfTxMF.jpg",
+          "padding":5.0
+        },
+        {
+          "category":55,
+          "image":"https://iili.io/FfT59R.jpg",
+          "padding":5.0,
+          "featured":true
+        }
+      ]
+    },
+    {
+      "name":"New Collections",
+      "name_ar": "مجموعات جديدة",
+      "layout":"staggered",
+      "limit":20
+     
+    },
+    {
+      "name":"Skin",
+      "name_ar":"العناية بالجلد و البشرة",
+      "image":"",
+      "layout":"threeColumn",
+      "isSnapping":false,
+      "category":50
+      
+    },
+    {
+      "name":"Make up",
+      "name_ar":"مستحضرات تجميل",
+      "image":"",
+      "layout":"threeColumn",
+      "isSnapping":true,
+      "category":29
+      
+    },
+    {
+      "name":"Hair",
+      "name_ar":"العناية بالشعر",
+      "image":"",
+      "layout":"threeColumn",
+      "isSnapping":true,
+      "category":51
+      
+    },
+    {
+      "name":"Perfume",
+      "name_ar":"عطور",
+      "image":"",
+      "layout":"threeColumn",
+      "isSnapping":true,
+      "category":52
+      
+    },
+    {
+      "name":"Lingerie",
+      "name_ar":"لانجري",
+      "image":"",
+      "layout":"threeColumn",
+      "isSnapping":true,
+      "category":53
+      
+    },
+    {
+      "name":"Accessories",
+     "name_ar":"اكسسوارات", 
+      "image":"",
+      "layout":"threeColumn",
+      "isSnapping":true,
+      "category":54
+      
+    },
+    {
+      "name":"Electronics",
+      "name_ar":"الكترونيات",
+      "image":"",
+      "layout":"threeColumn",
+      "isSnapping":true,
+      "category":55
+    },
+    {
+      "name":"Recent View",
+      "name_ar":"شاهدت",
+      "layout":"recentView"
+    }
+  ],
+  "Setting":{
+    "MainColor":"#F1ABB9",
+    "ProductListLayout":"list",
+    "StickyHeader":true
+  },
+  "TabBar":[
+    {
+      "layout":"home",
+      "icon":"assets/icons/tabs/icon-home.png",
+      "pos":100
+    },
+    {
+      "layout": "category",
+      "categoryLayout": "card",
+      "icon": "assets/icons/tabs/icon-category.png"
+    },
+    {
+      "layout":"cart",
+      "icon":"assets/icons/tabs/icon-cart2.png",
+      "pos":400
+    },
+    {
+      "layout":"profile",
+      "icon":"assets/icons/tabs/icon-user.png",
+      "pos":500
+    }
+  ],
+
+  "Background":{
+    "height":0.3,
+    "color":"#F1ABB9",
+    "image":"https://iili.io/FKuzTN.jpg"
+      }
+    }
